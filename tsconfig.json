@@ -4,10 +4,9 @@
     "module": "ESNext",
     "allowJs": true,
     "strict": true,
+    "noUncheckedIndexedAccess": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
@@ -18,5 +17,6 @@
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
     "nativewind-env.d.ts"
-  ]
+  ],
+  "ignores": ["drizzle"]
 }

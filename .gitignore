@@ -1,13 +1,16 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+db/schema.dbml
+
 # dependencies
 node_modules/
 
 # Expo
 .expo/
 dist/
-web-build/
 expo-env.d.ts
+ios/
+android/
 
 # Native
 *.orig.*
@@ -34,5 +37,3 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
-
-app-example

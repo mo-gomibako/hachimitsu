@@ -26,6 +26,8 @@ export default {
       danger: "var(--color-danger)",
       "on-danger": "var(--color-on-danger)",
     },
+    // アニメーションは使えない
+    animation: {},
     extend: {
       fontFamily: {
         "notosansjp-regular": ["NotoSansJP_400Regular"],
